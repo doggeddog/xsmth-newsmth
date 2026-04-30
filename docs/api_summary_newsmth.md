@@ -27,8 +27,8 @@
 新版接口，通常支持 Ajax 调用并返回 JSON 数据 (部分返回 HTML)。
 
 ### 2.1 帖子相关
-- **发表帖子**: `/nForum/article/{boardName}/ajax_post.json` (POST)
-- **编辑帖子**: `/nForum/article/{boardName}/ajax_edit/{pid}.json` (POST)
+- **发表帖子**: `/nForum/article/{boardName}/ajax_post.json` (POST) [查看文档](./api_doc_post_article.md)
+- **编辑帖子**: `/nForum/article/{boardName}/ajax_edit/{pid}.json` (POST) [查看文档](./api_doc_post_article.md)
 - **删除帖子**: `/nForum/article/{boardName}/ajax_delete/{pid}.json`
 - **帖子内容**: `/nForum/article/{boardName}/{postID}` (HTML, 通常用于 WebView 加载)
 
